@@ -1,102 +1,97 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lampy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #fae790;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #776e04;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin: 20px 0;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        .cta-button {
-            background-color: #ff9900;
-            color: #fff;
-            padding: 15px 25px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 18px;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <img src="img/Logo_Lampy.png" alt="">
-</header>
-
-<nav>
-    <a href="#home">Accueil</a>
-    <a href="#features">Caractéristiques</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<main>
-    <section id="home">
-        <h2>Illuminez votre intérieur avec style</h2>
-        <p>Découvrez notre nouvelle lampe qui transformera votre espace de vie en un havre de paix et de confort. Alliant design moderne et technologie de pointe, notre lampe est parfaite pour toutes les occasions.</p>
-        <img src="img/Lampy_4.jpeg" width="420" height="300" alt="">
-        <div class="container">
-        <button class="cta-button">Acheter maintenant</button>
-        </div>
-    </section>
-
-    <section id="features">
-        <h2>Caractéristiques principales</h2>
-        <ul>
-            <li>Design élégant et minimaliste</li>
-            <li>Technologie LED économe en énergie</li>
-            <li>Contrôle de luminosité tactile</li>
-            <li>Disponible en plusieurs couleurs</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contactez nous !</h2>
-    </section>
-</main>
-
-<footer>
-    <p>© 2024 Lampe de Luxe. Tous droits réservés.</p>
-</footer>
-
-</body>
-</html>
+1. Couleurs et fond :
+color : Couleur du texte.
+background-color : Couleur de fond.
+background-image : Image de fond.
+background-position : Position de l’image de fond.
+background-size : Taille de l’image de fond.
+background-repeat : Répétition de l’image de fond.
+background-clip : Détermine la zone de peinture du fond.
+background-origin : Définit l'origine du fond.
+background-attachment : Fixe ou défile l'image de fond.
+2. Texte :
+font-family : Police de caractère.
+font-size : Taille de la police.
+font-weight : Gras de la police.
+font-style : Style de la police (normal, italique).
+text-align : Alignement du texte.
+text-decoration : Décoration du texte (souligné, barré, etc.).
+text-transform : Transformation du texte (majuscule, minuscule).
+letter-spacing : Espacement entre les lettres.
+line-height : Hauteur de ligne.
+text-indent : Indentation du texte.
+word-spacing : Espacement entre les mots.
+direction : Direction du texte (ltr ou rtl).
+3. Boîte et disposition :
+width : Largeur de l'élément.
+height : Hauteur de l'élément.
+margin : Marge externe.
+margin-top
+margin-right
+margin-bottom
+margin-left
+padding : Marge interne.
+padding-top
+padding-right
+padding-bottom
+padding-left
+border : Bordure de l'élément (style, largeur, couleur).
+border-color
+border-width
+border-style
+border-radius
+box-shadow : Ombre autour de l'élément.
+box-sizing : Modèle de boîte (border-box ou content-box).
+4. Positionnement et affichage :
+position : Positionnement de l'élément (static, relative, absolute, fixed, sticky).
+top, right, bottom, left : Position par rapport à un bord donné.
+display : Type d’affichage de l’élément (block, inline, flex, grid, etc.).
+float : Flottement de l’élément (left, right).
+clear : Empêche le flottement (clear).
+z-index : Ordre de superposition.
+overflow : Comportement de dépassement de contenu (visible, hidden, scroll, auto).
+5. Flexbox :
+display: flex : Activer le modèle flex.
+flex-direction : Direction des éléments flexibles.
+flex-wrap : Comportement en cas de dépassement (wrap, nowrap).
+justify-content : Alignement des éléments sur l'axe principal.
+align-items : Alignement des éléments sur l'axe secondaire.
+align-self : Alignement individuel d'un élément.
+flex-grow : Facteur d'expansion d'un élément.
+flex-shrink : Facteur de contraction d'un élément.
+flex-basis : Taille de base d'un élément.
+6. Grid Layout :
+display: grid : Activer le modèle grid.
+grid-template-columns : Définir les colonnes de la grille.
+grid-template-rows : Définir les lignes de la grille.
+grid-gap : Espace entre les éléments de la grille.
+grid-area : Attribuer une zone dans la grille.
+justify-items : Alignement horizontal des éléments dans la grille.
+align-items : Alignement vertical des éléments dans la grille.
+7. Animation :
+animation-name : Nom de l'animation.
+animation-duration : Durée de l'animation.
+animation-timing-function : Fonction de synchronisation (ease, linear, etc.).
+animation-delay : Délai avant le début de l'animation.
+animation-iteration-count : Nombre de répétitions.
+animation-direction : Sens de l’animation (normal, reverse, alternate).
+8. Transitions :
+transition : Propriétés à animer.
+transition-duration : Durée de la transition.
+transition-timing-function : Fonction de synchronisation.
+transition-delay : Délai de transition.
+9. Transformations :
+transform : Appliquer des transformations (rotate, scale, translate, skew).
+transform-origin : Point d'origine de la transformation.
+10. Divers :
+opacity : Transparence de l'élément.
+cursor : Style du curseur (pointer, default, etc.).
+visibility : Visibilité de l'élément (visible, hidden).
+filter : Effets visuels (blur, brightness, contrast).
+content : Générer du contenu (utilisé avec ::before et ::after).
+11. Pseudo-classes et pseudo-éléments :
+:hover : Appliqué lorsque l’élément est survolé.
+:focus : Appliqué lorsque l’élément a le focus.
+:nth-child() : Sélection d’enfants en fonction de leur position.
+:first-child / :last-child : Premier ou dernier enfant.
+::before et ::after : Insérer du contenu avant ou après un élément.
+:active, :visited, :link : États des liens.
